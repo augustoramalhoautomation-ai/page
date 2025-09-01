@@ -1,0 +1,433 @@
+/* Cores da Logo (aproximadas): */
+/* Azul: #4E46E5 */
+/* Roxo: #9333EA */
+/* Texto Escuro: #1A1A1A */
+/* Cinza Claro: #E9E9E9 */
+/* Cinza Neutro: #F4F4F4 */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 20px 20px;
+
+}
+
+header {
+    background: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #E9E9E9;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #1A1A1A;
+    font-weight: 700;
+}
+
+header h2 {
+    margin-top: 5px;
+    font-size: 1.4em;
+    color: #555;
+    font-weight: 400;
+}
+
+main {
+    margin-top: 30px;
+}
+
+section {
+    background: #FFFFFF;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2em;
+    color: #4E46E5;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Estilo do novo Banner */
+.banner-area {
+    background: linear-gradient(to right, #4E46E5, #9333EA);
+    color: #FFFFFF;
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-content h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #4E46E5;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background: #E9E9E9;
+    color: #9333EA;
+}
+
+/* Estilos existentes */
+.about-us p {
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.services-list li {
+    background: #F8F8F8;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.services-list li h3 {
+    margin-top: 0;
+    color: #9333EA;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.services-list li p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+}
+
+/* Estilo para a seção de benefícios (nova) */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.benefit-item {
+    background: #F8F8F8;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.benefit-item h3 {
+    color: #9333EA;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    color: #666;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.testimonial-item {
+    background: #F8F8F8;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1 1 400px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+.testimonial-item p {
+    margin-bottom: 10px;
+}
+
+.testimonial-item cite {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    color: #4E46E5;
+    margin-top: 10px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact .section-title {
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.contact-info p {
+    margin: 15px 0;
+}
+
+.contact-info a {
+    color: #4E46E5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #9333EA;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    color: #777;
+    background-color: #E9E9E9;
+    font-size: 0.9em;
+}
+
+/* Responsividade Aprimorada */
+@media (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+    .banner-content h1 {
+        font-size: 2.8em;
+    }
+    .banner-content p {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+    header h2 {
+        font-size: 1.2em;
+    }
+    .section-title {
+        font-size: 2em;
+    }
+    .services-list, .benefits-grid, .testimonial-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-list li, .benefit-item, .testimonial-item {
+        flex: 1 1 90%;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    header h2 {
+        font-size: 1em;
+    }
+    .banner-content h1 {
+        font-size: 2.2em;
+    }
+    .banner-content p {
+        font-size: 1em;
+    }
+    section {
+        padding: 25px;
+    }
+    .section-title {
+        font-size: 1.8em;
+    }
+    .logo {
+        max-width: 180px;
+    }
+}
+.social-icons a {
+    color: #555;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    /* --- Adicione ou ajuste esta linha --- */
+    font-size: 2em; /* Tamanho do ícone, 1em é o tamanho padrão do texto */
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.clients-depoiments {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f4f4f4;
+}
+
+.carousel-container {
+    overflow: hidden; /* Oculta os itens que estão fora da visualização */
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.depoimento-card {
+    flex-shrink: 0; /* Impede que os cards encolham */
+    width: 100%; /* Garante que cada card ocupe 100% do carrossel */
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Inclui o padding na largura total */
+    text-align: center;
+}
+
+.depoimento-card p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1.1em; /* Torna o texto do depoimento mais visível */
+}
+
+.depoimento-card h4 {
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+}
+
+/* ----- Seção de Depoimentos (Ajustes) ----- */
+.clients-depoiments {
+    padding: 80px 0; /* Aumenta o padding vertical para mais 'respiro' */
+    background-color: #f8f8f8; /* Uma cor de fundo mais clara e suave, ou transparente se preferir */
+}
+
+.carousel-container {
+    overflow: hidden;
+    overflow-x: hidden; /* Adicione esta linha para garantir a remoção da barra de rolagem horizontal */
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.8s ease-in-out; /* Transição mais suave e um pouco mais lenta */
+}
+
+.depoimento-card {
+    flex-shrink: 0;
+    width: 100%;
+    padding: 40px; /* Aumenta o padding interno do card para mais espaço */
+    background-color: transparent; /* Remove o fundo do card, já que o container tem branco */
+    border-radius: 10px; /* Mantém as bordas arredondadas */
+    box-shadow: none; /* Remove a sombra individual do card, o container já tem */
+    box-sizing: border-box;
+    text-align: center;
+    color: #333; /* Cor de texto mais escura para melhor contraste */
+}
+
+.depoimento-card p {
+    font-style: italic;
+    color: #666; /* Um cinza um pouco mais suave para o texto do depoimento */
+    margin-bottom: 25px; /* Espaçamento maior abaixo do texto */
+    font-size: 1.2em; /* Texto um pouco maior para melhor leitura */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para legibilidade */
+}
+
+.depoimento-card h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #222; /* Cor mais escura para o nome */
+    font-weight: 600; /* Mais negrito para o nome */
+    font-size: 1.3em;
+}
+
+.depoimento-card p:last-of-type { /* Estilo para o cargo/função */
+    color: #888;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* Estilo para o contêiner dos indicadores */
+.carousel-indicators {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para cada indicador (bolinha) */
+.indicator-dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%; /* Transforma a div em um círculo */
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+/* Estilo para o indicador ativo (bolinha atual) */
+.indicator-dot.active {
+    background-color: #333; /* Cor mais escura para a bolinha ativa */
+}
